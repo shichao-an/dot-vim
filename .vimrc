@@ -1,6 +1,5 @@
 set sw=4
 set ts=4
-set paste
 execute pathogen#infect()
 syntax enable
 set background=dark
@@ -15,3 +14,5 @@ set number
 let Tlist_WinWidth = 40
 set gfn=Monaco:h14
 autocmd BufWritePost *.py call Flake8()
+set textwidth=80
+let g:neocomplcache_enable_at_startup = 1
