@@ -14,7 +14,6 @@ set number
 let Tlist_WinWidth = 40
 set gfn=Monaco:h14
 autocmd BufWritePost *.py call Flake8()
-set textwidth=78
 let g:neocomplcache_enable_at_startup = 1
 if has('gui_running')
 	autocmd VimEnter * NERDTree
