@@ -18,3 +18,4 @@ let g:neocomplcache_enable_at_startup = 1
 if has('gui_running')
 	autocmd VimEnter * NERDTree
 endif
+set ruler
