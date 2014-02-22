@@ -1,0 +1,8 @@
+https://github.com/Raimondi/delimitMate
+https://github.com/Shougo/neocomplcache.vim
+https://github.com/scrooloose/nerdcommenter
+https://github.com/scrooloose/nerdtree
+https://github.com/altercation/vim-colors-solarized
+https://github.com/Lokaltog/vim-easymotion
+https://github.com/nvie/vim-flake8
+https://github.com/terryma/vim-multiple-cursors
