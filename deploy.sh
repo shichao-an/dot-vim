@@ -2,11 +2,10 @@
 
 # Deploy .vimrc and download bundles using git clone
 
-HOME1="$HOME/test/shichao"
 BUNDLE_FILE="$PWD/bundle.txt"
-DOT_VIM_DIR="$HOME1/.vim"
+DOT_VIM_DIR="$HOME/.vim"
 
-cp .vimrc $HOME1
+cp .vimrc $HOME
 mkdir "$DOT_VIM_DIR"
 rsync -avz .vim/ftplugin "$DOT_VIM_DIR"
 rsync -avz .vim/autoload "$DOT_VIM_DIR"
