@@ -6,3 +6,4 @@ https://github.com/altercation/vim-colors-solarized
 https://github.com/Lokaltog/vim-easymotion
 https://github.com/nvie/vim-flake8
 https://github.com/terryma/vim-multiple-cursors
+https://github.com/shichao-an/taglist.vim.git
