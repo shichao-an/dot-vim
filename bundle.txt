@@ -7,3 +7,4 @@ https://github.com/nvie/vim-flake8
 https://github.com/terryma/vim-multiple-cursors
 https://github.com/shichao-an/taglist.vim.git
 https://github.com/scrooloose/nerdcommenter
+https://github.com/tpope/vim-surround
