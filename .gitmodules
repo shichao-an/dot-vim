@@ -26,9 +26,9 @@
 	path = .vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors
 
-[submodule ".vim/bundle/taglist.vim.git"]
-	path = .vim/bundle/taglist.vim.git
-	url = https://github.com/shichao-an/taglist.vim.git
+[submodule ".vim/bundle/taglist.vim"]
+	path = .vim/bundle/taglist.vim
+	url = https://github.com/shichao-an/taglist.vim
 
 [submodule ".vim/bundle/nerdcommenter"]
 	path = .vim/bundle/nerdcommenter
