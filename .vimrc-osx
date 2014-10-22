@@ -9,7 +9,7 @@ let g:EasyMotion_leader_key = '<Leader>'
 let NERDTreeIgnore = ['\.pyc$']
 set nocompatible
 filetype plugin indent on
-let Tlist_Ctags_Cmd = '/Users/shichao/Documents/Programs/bin/bin/ctags'
+"let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
 let Tlist_Use_Right_Window = 1
 set number
 let Tlist_WinWidth = 40
