@@ -16,6 +16,7 @@ let Tlist_WinWidth = 40
 set gfn=Monaco:h14
 "autocmd BufWritePost *.py call Flake8()
 let g:syntastic_auto_loc_list = 1
+let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:neocomplcache_enable_at_startup = 1
 if has('gui_running')
