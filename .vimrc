@@ -1,3 +1,4 @@
+" .vimrc OS X
 set sw=4
 set ts=4
 execute pathogen#infect()
