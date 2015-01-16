@@ -1,4 +1,3 @@
-" .vimrc OS X
 set sw=4
 set ts=4
 execute pathogen#infect()
@@ -26,3 +25,4 @@ if has('gui_running')
 endif
 set ruler
 set modelines=5
+set exrc
