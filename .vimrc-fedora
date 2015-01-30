@@ -16,6 +16,6 @@ set guifont=Monaco\ 12
 autocmd BufWritePost *.py call Flake8()
 let g:neocomplcache_enable_at_startup = 1
 if has('gui_running')
-	autocmd VimEnter * NERDTree
+    autocmd VimEnter * NERDTree
 endif
 set ruler
