@@ -14,7 +14,6 @@ let Tlist_Use_Right_Window = 1
 set number
 let Tlist_WinWidth = 40
 set gfn=Monaco:h14
-"autocmd BufWritePost *.py call Flake8()
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
