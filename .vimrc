@@ -18,6 +18,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:neocomplete#enable_at_startup = 1
+set completeopt-=preview
 let g:loaded_syntastic_html_tidy_checker = 0
 if has('gui_running')
 	autocmd VimEnter * NERDTree
