@@ -6,9 +6,9 @@
 	path = .vim/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate
 
-[submodule ".vim/bundle/neocomplcache.vim"]
-	path = .vim/bundle/neocomplcache.vim
-	url = https://github.com/Shougo/neocomplcache.vim
+[submodule ".vim/bundle/neocomplete.vim"]
+	path = .vim/bundle/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim
 
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
