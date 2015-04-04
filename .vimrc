@@ -26,3 +26,4 @@ endif
 set ruler
 set modelines=5
 set exrc
+set backspace=2
