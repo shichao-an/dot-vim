@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Deploy .vimrc, .vim and download bundles using git clone
 
