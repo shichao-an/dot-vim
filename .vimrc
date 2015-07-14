@@ -52,3 +52,6 @@ endfunction
 " vim-markdown
 let g:vim_markdown_folding_disabled=1
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
+" remove trailing whitespaces
+autocmd BufWritePre *.md :%s/\s\+$//e
