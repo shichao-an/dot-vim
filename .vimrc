@@ -54,7 +54,9 @@ let g:vim_markdown_folding_disabled=1
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 " remove trailing whitespaces
-autocmd BufWritePre *.md :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Ignore .png and .jpg in NERDTree
 let NERDTreeIgnore=['\.png$','\.jpg']
+
+set formatoptions+=w
