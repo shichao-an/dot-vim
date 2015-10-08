@@ -5,7 +5,7 @@ syntax enable
 set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
-let g:EasyMotion_leader_key = '<Leader>' 
+let g:EasyMotion_leader_key = '<Leader>'
 let NERDTreeIgnore = ['\.pyc$']
 set nocompatible
 filetype plugin indent on
@@ -53,10 +53,23 @@ endfunction
 let g:vim_markdown_folding_disabled=1
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
-" remove trailing whitespaces
+" Remove trailing whitespaces
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Ignore .png and .jpg in NERDTree
 let NERDTreeIgnore=['\.png$','\.jpg']
 
 set formatoptions+=w
+
+" Twiddle case
+function! TwiddleCase(str)
+  if a:str ==# toupper(a:str)
+    let result = tolower(a:str)
+  elseif a:str ==# tolower(a:str)
+    let result = substitute(a:str,'\(\<\w\+\>\)', '\u\1', 'g')
+  else
+    let result = toupper(a:str)
+  endif
+  return result
+endfunction
+vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv
