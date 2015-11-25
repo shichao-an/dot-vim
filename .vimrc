@@ -19,6 +19,8 @@ set gfn=Monaco:h14
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
+let g:syntastic_puppet_checkers = ['puppetlint']
+let g:syntastic_sh_checkers = ['shellcheck']
 let g:loaded_syntastic_html_tidy_checker = 0
 
 " neocomplete
