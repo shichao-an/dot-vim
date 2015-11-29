@@ -17,6 +17,7 @@ set gfn=Monaco:h14
 
 " syntastic
 let g:syntastic_auto_loc_list = 1
+let g:syntastic_c_checkers = ['gcc']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_puppet_checkers = ['puppetlint']
