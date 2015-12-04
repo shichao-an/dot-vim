@@ -76,3 +76,7 @@ function! TwiddleCase(str)
   return result
 endfunction
 vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv
+
+"ctrlp
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_by_filename = 1
