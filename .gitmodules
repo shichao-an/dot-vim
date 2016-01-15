@@ -65,3 +65,7 @@
 [submodule ".vim/bundle/ag.vim"]
 	path = .vim/bundle/ag.vim
 	url = https://github.com/rking/ag.vim
+
+[submodule ".vim/bundle/nerdtree-ag"]
+	path = .vim/bundle/nerdtree-ag
+	url = https://github.com/taiansu/nerdtree-ag
