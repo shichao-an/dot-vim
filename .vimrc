@@ -6,7 +6,6 @@ set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
 let g:EasyMotion_leader_key = '<Leader>'
-let NERDTreeIgnore = ['\.pyc$']
 set nocompatible
 filetype plugin indent on
 "let Tlist_Ctags_Cmd = '/usr/local/bin/ctags'
@@ -60,7 +59,7 @@ autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Ignore .png and .jpg in NERDTree
-let NERDTreeIgnore=['\.png$','\.jpg']
+let NERDTreeIgnore=['\.pyc$','\.png$','\.jpg']
 
 set formatoptions+=w
 
