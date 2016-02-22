@@ -59,7 +59,7 @@ autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Ignore .png and .jpg in NERDTree
-let NERDTreeIgnore=['\.pyc$','\.png$','\.jpg']
+let NERDTreeIgnore=['\.pyc$','\.png$','\.jpg$', '\.swp$']
 
 set formatoptions+=w
 
