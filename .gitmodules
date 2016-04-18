@@ -69,3 +69,7 @@
 [submodule ".vim/bundle/nerdtree-ag"]
 	path = .vim/bundle/nerdtree-ag
 	url = https://github.com/taiansu/nerdtree-ag
+
+[submodule ".vim/bundle/vim-scala"]
+	path = .vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala

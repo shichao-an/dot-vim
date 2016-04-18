@@ -12,7 +12,7 @@ filetype plugin indent on
 let Tlist_Use_Right_Window = 1
 set number
 let Tlist_WinWidth = 40
-set gfn=Monaco:h14
+set gfn=Monaco:h17
 
 " syntastic
 let g:syntastic_auto_loc_list = 1
@@ -21,7 +21,10 @@ let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_puppet_checkers = ['puppetlint']
 let g:syntastic_sh_checkers = ['shellcheck']
+let g:syntastic_scala_checkers = ['scalastyle']
 let g:loaded_syntastic_html_tidy_checker = 0
+let g:syntastic_scala_scalastyle_jar = '/usr/local/Cellar/scalastyle/0.8.0/libexec/scalastyle_2.11-0.8.0-batch.jar'
+let g:syntastic_scala_scalastyle_config_file = '/usr/local/etc/scalastyle_config.xml'
 
 " neocomplete
 let g:neocomplete#enable_at_startup = 1
