@@ -73,13 +73,3 @@ let g:ctrlp_by_filename = 1
 :set hlsearch
 " Press Space to turn off highlighting and clear any message already displayed.
 :nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
-" Press F8 to highlight occurences of visually selected text without moving
-set guioptions+=a
-function! MakePattern(text)
-  let pat = escape(a:text, '\')
-  let pat = substitute(pat, '\_s\+$', '\\s\\*', '')
-  let pat = substitute(pat, '^\_s\+', '\\s\\*', '')
-  let pat = substitute(pat, '\_s\+',  '\\_s\\+', 'g')
-  return '\\V' . escape(pat, '\"')
-endfunction
-vnoremap <silent> <F8> :<C-U>let @/="<C-R>=MakePattern(@*)<CR>"<CR>:set hls<CR>
