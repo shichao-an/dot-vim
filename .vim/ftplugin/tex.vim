@@ -3,3 +3,4 @@ setlocal shiftwidth=2
 setlocal expandtab
 setlocal softtabstop=2
 setlocal smarttab
+setlocal spell spelllang=en_us
