@@ -14,10 +14,14 @@ set number
 let Tlist_WinWidth = 40
 set gfn=Monaco:h17
 
+" disable folding
+set nofoldenable
+
 " syntastic
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_markdown_checkers = ['mdl']
 let g:syntastic_c_checkers = ['gcc-5']
+let g:syntastic_tex_checkers = ['chktex']
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_puppet_checkers = ['puppetlint']
