@@ -19,6 +19,7 @@ set nofoldenable
 
 " syntastic
 let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height = 5
 let g:syntastic_markdown_checkers = ['mdl']
 let g:syntastic_c_checkers = ['gcc-5']
 let g:syntastic_tex_checkers = ['chktex']
