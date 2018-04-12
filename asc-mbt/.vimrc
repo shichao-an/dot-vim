@@ -33,7 +33,7 @@ let g:syntastic_scala_scalastyle_jar = '/usr/local/Cellar/scalastyle/0.8.0/libex
 let g:syntastic_scala_scalastyle_config_file = '/usr/local/etc/scalastyle_config.xml'
 
 " neocomplete
-let g:neocomplete#enable_at_startup = 0
+let g:neocomplete#enable_at_startup = 1
 set completeopt-=preview
 
 let g:nerdtree_tabs_open_on_gui_startup = 0
